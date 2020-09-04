@@ -1,4 +1,7 @@
-const scale = (num, inMin, inMax, outMin, outMax) => {
+const scale = (num, inMin, inMax) => {
+  let outMin = 0;
+  let outMax = 100;
+  
   if (num < in_min) return 0;
   if (num > in_max) return 100;
 
